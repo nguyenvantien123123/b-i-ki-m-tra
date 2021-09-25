@@ -1,0 +1,12 @@
+Các lệnh git đã học:
+- git init: Khởi tạo 1 git repository 1 project mới hoặc đã có.
+- git add . : Thêm thay đổi đến stage/index trong thư mục làm việc.
+- git commit -m “first commit”... : commit nghĩa là một action để Git lưu lại một snapshot của các sự thay đổi trong thư mục làm việc. 
+Và các tập tin, thư mục được thay đổi đã phải nằm trong Staging Area. Mỗi lần commit nó sẽ được lưu lại lịch sử chỉnh sửa của code kèm theo tên và địa chỉ email của người commit. 
+Ngoài ra trong Git bạn cũng có thể khôi phục lại tập tin trong lịch sử commit của nó để chia cho một branch khác, vì vậy bạn sẽ dễ dàng khôi phục lại các thay đổi trước đó.
+- git status: Để check trạng thái của những file bạn đã thay đổi trong thư mục làm việc.
+- git push origin master: để đẩy các thay đổi cục bộ đến nhánh chính.
+- git pull: Để tải code mới nhất về máy.
+- git push origin master: Đẩy các xác nhận trong nhánh cục bộ có tên master vào điều khiển từ xa có tên Origin.
+- git clone: Copy 1 git repository từ remote source.
+- git config: Để set user name và email của bạn trong main configuration file.
